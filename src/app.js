@@ -1,7 +1,16 @@
 import { Component } from "react";
+import { login } from "@tarojs/taro";
+
+import "./app.css";
 
 class App extends Component {
-  componentDidMount() {}
+  componentDidMount() {
+    login({
+      success(res) {
+        console.log("==== success", res);
+      },
+    });
+  }
 
   componentDidShow() {}
 

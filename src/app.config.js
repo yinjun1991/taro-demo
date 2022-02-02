@@ -1,5 +1,10 @@
 export default {
-  pages: ["pages/label/index", "pages/index/index"],
+  pages: [
+    "pages/index/index",
+    "pages/label/index",
+    "pages/editor/index",
+    "pages/editor-atfinder/index",
+  ],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",

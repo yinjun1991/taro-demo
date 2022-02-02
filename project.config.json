@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "editor-bug",
   "description": "小程序 bug",
-  "appid": "touristappid",
+  "appid": "cli_a0bce0226db8d00e",
   "setting": {
     "urlCheck": true,
     "es6": false,
