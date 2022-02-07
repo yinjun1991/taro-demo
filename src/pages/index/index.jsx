@@ -8,8 +8,8 @@ export default function Index() {
       <Navigator key="editor" url="/pages/editor/index">
         editor
       </Navigator>
-      <Navigator key="editor-atfinder" url="/pages/editor-atfinder/index">
-        editor onAtfinder 或 onAtFinder 无效
+      <Navigator key="editor-panel" url="/pages/editor-panel/index">
+        editor 设置 height，选人面板 overflow
       </Navigator>
       <Navigator key="label" url="/pages/label/index">
         label
