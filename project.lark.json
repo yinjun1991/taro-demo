@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./",
   "projectname": "editor-bug",
-  "appid": "cli_a0bce0226db8d00e",
+  "appid": "cli_a127584cbab9900d",
   "setting": {
     "es6": false,
     "minified": false

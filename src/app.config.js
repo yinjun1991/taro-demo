@@ -5,6 +5,7 @@ export default {
     "pages/editor/index",
     "pages/editor-panel/index",
     "pages/editor-placeholderStyle/index",
+    "pages/input-height/index",
   ],
   window: {
     backgroundTextStyle: "light",

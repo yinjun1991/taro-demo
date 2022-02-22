@@ -20,6 +20,9 @@ export default function Index() {
       <Navigator key="label" url="/pages/label/index">
         label
       </Navigator>
+      <Navigator key="input-height" url="/pages/input-height/index">
+        input height
+      </Navigator>
     </View>
   );
 }
