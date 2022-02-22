@@ -4,6 +4,7 @@ export default {
     "pages/label/index",
     "pages/editor/index",
     "pages/editor-panel/index",
+    "pages/editor-placeholderStyle/index",
   ],
   window: {
     backgroundTextStyle: "light",

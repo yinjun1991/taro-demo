@@ -11,6 +11,12 @@ export default function Index() {
       <Navigator key="editor-panel" url="/pages/editor-panel/index">
         editor 设置 height，选人面板 overflow
       </Navigator>
+      <Navigator
+        key="editor-placeholderStyle"
+        url="/pages/editor-placeholderStyle/index"
+      >
+        editor placeholderStyle 不生效
+      </Navigator>
       <Navigator key="label" url="/pages/label/index">
         label
       </Navigator>
