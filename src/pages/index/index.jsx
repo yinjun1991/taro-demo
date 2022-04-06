@@ -23,6 +23,13 @@ export default function Index() {
       <Navigator key="input-height" url="/pages/input-height/index">
         input height
       </Navigator>
+      <View
+        className="empty"
+        style={{ height: 100, background: "#ccc" }}
+        onClick={() => console.log("hello")}
+      >
+        这是空的 view
+      </View>
     </View>
   );
 }

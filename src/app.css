@@ -2,3 +2,20 @@ page {
   padding: 12px;
   box-sizing: border-box;
 }
+
+/* :global {
+  view, text {
+    Cursor: pointer;
+  }
+} */
+/* page view {
+  Cursor: pointer;
+}
+
+page text {
+  Cursor: pointer;
+} */
+
+page [bindtap] {
+  Cursor: pointer;
+}
