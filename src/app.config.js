@@ -1,12 +1,5 @@
 export default {
-  pages: [
-    "pages/index/index",
-    "pages/label/index",
-    "pages/editor/index",
-    "pages/editor-panel/index",
-    "pages/editor-placeholderStyle/index",
-    "pages/input-height/index",
-  ],
+  pages: ["pages/index/index", "pages/label/index"],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",

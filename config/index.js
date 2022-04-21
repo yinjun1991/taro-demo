@@ -11,13 +11,13 @@ const config = {
   outputRoot: "dist",
   plugins: [
     "@tarojs/plugin-html",
-    // [
-    //   "@tarojs/plugin-platform-lark",
-    //   // 插件选项
-    //   {
-    //     pc: true,
-    //   },
-    // ],
+    [
+      "@tarojs/plugin-platform-lark",
+      // 插件选项
+      {
+        pc: true,
+      },
+    ],
   ],
   defineConstants: {},
   copy: {
@@ -26,6 +26,8 @@ const config = {
   },
   framework: "react",
   mini: {
+    enableSourceMap: true,
+    sourceMapType: "source-map",
     postcss: {
       pxtransform: {
         enable: false,
@@ -47,6 +49,8 @@ const config = {
     },
   },
   h5: {
+    enableSourceMap: true,
+    sourceMapType: "source-map",
     publicPath: "/",
     staticDirectory: "static",
     postcss: {
